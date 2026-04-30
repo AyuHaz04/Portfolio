@@ -4,9 +4,8 @@ const portfolioData = {
   phone: "+91-9831292291",
   linkedin: "https://www.linkedin.com/in/ayush-hazra/",
   github: "https://github.com/AyuHaz04",
-  title: "Full Stack Developer",
-  tagline: "Building scalable web apps with React, Node.js, MongoDB & AWS",
-
+  title: "Full Stack Developer & Data Analyst",
+tagline: "Building scalable web apps and data-driven solutions with React, Node.js, Python & AWS",
   stats: [
     { value: "8000+", label: "Event Participants Managed" },
     { value: "40%", label: "Faster Page Load Time" },
@@ -50,15 +49,40 @@ const portfolioData = {
       live: null,
       github: "https://github.com/AyuHaz04/Velvelt-Bug-Frontend",
     },
+    {
+  name: "Smart Sales Forecasting System",
+  tech: ["Python", "Machine Learning", "Streamlit", "Random Forest"],
+  points: [
+    "AI-based sales forecasting system using historical retail data",
+    "Performed data cleaning, preprocessing and feature engineering",
+    "Trained Random Forest regression model achieving R² score of ~0.92",
+    "Deployed as interactive Streamlit web app for real-time predictions",
+  ],
+  live: "https://smart-sales-forecasting-r6qfdhn3d8zs5pwyxjk9gv.streamlit.app/",
+  github: "https://github.com/AyuHaz04/smart-sales-forecasting",
+},
+{
+  name: "AI Review Sentiment Analyzer",
+  tech: ["Python", "NLP", "Scikit-learn", "Streamlit"],
+  points: [
+    "Production-ready AI sentiment analysis platform using Python and Scikit-learn",
+    "TF-IDF vectorization and Logistic Regression to classify customer reviews",
+    "Schema-agnostic CSV ingestion pipeline supporting real-world messy datasets",
+    "Optimized with caching and deployed on Streamlit Cloud",
+  ],
+  live: "https://reviewsentimentanalyzer-ragzlapdy6tuacvns8tiq3.streamlit.app/",
+  github: "https://github.com/AyuHaz04/Review_sentiment_Analyzer",
+},
   ],
 
   skills: [
-    { category: "Languages", items: ["Java", "JavaScript", "C++", "Python"] },
-    { category: "Frontend", items: ["HTML", "CSS", "ReactJS", "Bootstrap", "Tailwind CSS"] },
-    { category: "Backend", items: ["Node.js", "ExpressJS"] },
-    { category: "Databases", items: ["MongoDB", "SQL"] },
-    { category: "Tools & Cloud", items: ["Git", "VS Code", "AWS Cloud"] },
-  ],
+  { category: "Languages", items: ["Java", "JavaScript", "C++", "Python"] },
+  { category: "Data & ML", items: ["Pandas", "NumPy", "Scikit-learn", "NLP (TF-IDF)", "Streamlit"] },
+  { category: "Frontend", items: ["HTML", "CSS", "ReactJS", "Bootstrap", "Tailwind CSS"] },
+  { category: "Backend", items: ["Node.js", "ExpressJS"] },
+  { category: "Databases", items: ["MongoDB", "SQL"] },
+  { category: "Tools & Cloud", items: ["Git", "VS Code", "AWS Cloud"] },
+],
 
   certifications: [
     {
@@ -79,6 +103,12 @@ const portfolioData = {
       date: "Jul 2025",
       highlight: false,
     },
+    {
+  name: "Data Analysis",
+  issuer: "Udemy",
+  date: "Dec 2025",
+  highlight: false,
+},
   ],
 
   leadership: [

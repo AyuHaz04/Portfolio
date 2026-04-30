@@ -1,11 +1,13 @@
 import portfolioData from '../data/portfolioData'
 
+
 const categoryColors = {
   'Languages': '#f59e0b',
+  'Data & ML': '#ec4899',
   'Frontend': '#6366f1',
   'Backend': '#10b981',
   'Databases': '#3b82f6',
-  'Tools & Cloud': '#ec4899',
+  'Tools & Cloud': '#8b5cf6',
 }
 
 function Skills() {

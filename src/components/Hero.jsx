@@ -53,16 +53,16 @@ function Hero() {
 
           {/* Title */}
           <h2 className="animate-fadeInUp delay-2" style={{
-            fontSize: 'clamp(1.1rem, 2.5vw, 1.5rem)',
-            fontWeight: 500,
-            color: 'var(--text-subtle)',
-            marginBottom: '24px',
-          }}>
-            Full Stack Developer
-            <span style={{ color: 'var(--border)', margin: '0 12px' }}>|</span>
-            Java Specialist
-            <span style={{ color: 'var(--border)', margin: '0 12px' }}>|</span>
-            AWS Certified
+                fontSize: 'clamp(1.1rem, 2.5vw, 1.5rem)',
+                fontWeight: 500,
+                color: 'var(--text-subtle)',
+                marginBottom: '24px',
+                }}>
+                Full Stack Developer
+                <span style={{ color: 'var(--border)', margin: '0 12px' }}>|</span>
+                Data Analyst
+                <span style={{ color: 'var(--border)', margin: '0 12px' }}>|</span>
+                AWS Certified
           </h2>
 
           {/* Tagline */}
@@ -73,12 +73,12 @@ function Hero() {
             marginBottom: '40px',
             lineHeight: 1.8,
           }}>
-            Building scalable full-stack web apps with{' '}
-            <span style={{ color: 'var(--accent-hover)' }}>React, Node.js, MongoDB & AWS</span>
+            Building scalable web apps and data-driven solutions with{' '}
+            <span style={{ color: 'var(--accent-hover)' }}>React, Node.js, Python & AWS</span>
             {' '}— delivering{' '}
             <span style={{ color: 'var(--accent-hover)' }}>40% faster load times</span>
             {' '}and{' '}
-            <span style={{ color: 'var(--accent-hover)' }}>99% uptime</span>.
+            <span style={{ color: 'var(--accent-hover)' }}>R² scores of 0.92</span>.
           </p>
 
           {/* CTA Buttons */}
