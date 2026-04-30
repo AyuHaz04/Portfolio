@@ -2,7 +2,7 @@
 
 A modern, responsive developer portfolio built with React and Vite.
 
-🔗 **Live Demo:** _coming soon_
+🔗 **Live Demo:** (https://portfolio-eight-bay-31.vercel.app/)
 
 ---
 
@@ -28,3 +28,41 @@ A modern, responsive developer portfolio built with React and Vite.
 ---
 
 ## 📁 Project Structure
+
+src/
+├── components/       # All UI sections
+├── data/             # Resume content (portfolioData.js)
+├── hooks/            # useReveal (scroll animations)
+├── styles/           # globals.css, animations.css
+├── App.jsx
+└── main.jsx
+
+---
+
+## 🚀 Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/AyuHaz04/portfolio.git
+
+# Navigate into the folder
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+---
+
+## 📬 Contact
+
+- 📧 ayushh20004@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/ayush-hazra/)
+- 🐙 [GitHub](https://github.com/AyuHaz04)
+
+---
+
+> Open to full-stack developer roles and internship opportunities.
