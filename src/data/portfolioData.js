@@ -39,15 +39,15 @@ tagline: "Building scalable web apps and data-driven solutions with React, Node.
       github: "https://github.com/AyuHaz04/SafeSearch-Frontend",
     },
     {
-      name: "VelvetBug",
-      tech: ["ReactJS", "Node.js", "MongoDB"],
+      name: "Localcart",
+      tech: ["NextJS", "Node.js", "MongoDB","Razorpay","Leaflet"],
       points: [
-        "E-commerce platform for customizable greeting cards with interactive UI",
-        "REST APIs for product customization, user actions and admin operations",
-        "Admin panel for inventory and content management",
+        "Built a full-stack local marketplace platform with buyer and seller workflows, including shop listings, product pages, nearby discovery, and checkout.",
+        "Implemented secure authentication and role-based access using NextAuth, JWT sessions, MongoDB, and bcrypt password hashing.",
+        "Integrated core marketplace features such as Razorpay payments, image uploads with UploadThing, and interactive map-based shop discovery with Leaflet.",
       ],
-      live: null,
-      github: "https://github.com/AyuHaz04/Velvelt-Bug-Frontend",
+      live: "https://local-cart-gamma.vercel.app/",
+      github: "https://github.com/AyuHaz04/Localcart",
     },
     {
   name: "Smart Sales Forecasting System",
